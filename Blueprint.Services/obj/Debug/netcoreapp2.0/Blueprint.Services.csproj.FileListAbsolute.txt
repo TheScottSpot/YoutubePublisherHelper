@@ -1,0 +1,12 @@
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\bin\Debug\netcoreapp2.0\Blueprint.Services.deps.json
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\bin\Debug\netcoreapp2.0\Blueprint.Services.dll
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\bin\Debug\netcoreapp2.0\Blueprint.Services.pdb
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\bin\Debug\netcoreapp2.0\Blueprint.Entities.dll
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\bin\Debug\netcoreapp2.0\Blueprint.Entities.pdb
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\obj\Debug\netcoreapp2.0\Blueprint.Services.csprojResolveAssemblyReference.cache
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\obj\Debug\netcoreapp2.0\Blueprint.Services.csproj.CoreCompileInputs.cache
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\obj\Debug\netcoreapp2.0\Blueprint.Services.AssemblyInfoInputs.cache
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\obj\Debug\netcoreapp2.0\Blueprint.Services.AssemblyInfo.cs
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\obj\Debug\netcoreapp2.0\Blueprint.Services.csproj.CopyComplete
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\obj\Debug\netcoreapp2.0\Blueprint.Services.dll
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Services\obj\Debug\netcoreapp2.0\Blueprint.Services.pdb

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="AngularASPNETCore2WebApiAuth.sln" t="IncludeFlat" />
+      <e p="GlobalBlueprint.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_AngularASPNETCore2WebApiAuth.-88379587.00" t="ExcludeRecursive" />
+  </component>
+</project>

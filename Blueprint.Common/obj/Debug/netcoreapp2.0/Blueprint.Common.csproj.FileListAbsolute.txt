@@ -1,0 +1,9 @@
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Common\bin\Debug\netcoreapp2.0\Blueprint.Common.deps.json
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Common\bin\Debug\netcoreapp2.0\Blueprint.Common.dll
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Common\bin\Debug\netcoreapp2.0\Blueprint.Common.pdb
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Common\obj\Debug\netcoreapp2.0\Blueprint.Common.csprojResolveAssemblyReference.cache
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Common\obj\Debug\netcoreapp2.0\Blueprint.Common.csproj.CoreCompileInputs.cache
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Common\obj\Debug\netcoreapp2.0\Blueprint.Common.AssemblyInfoInputs.cache
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Common\obj\Debug\netcoreapp2.0\Blueprint.Common.AssemblyInfo.cs
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Common\obj\Debug\netcoreapp2.0\Blueprint.Common.dll
+C:\Users\Cody\Documents\Code\angular-boilerplate\Angular5-WebCore2-Boilerplate\GlobalBlueprint\Blueprint.Common\obj\Debug\netcoreapp2.0\Blueprint.Common.pdb
