@@ -1,8 +1,8 @@
 ﻿
-using GlobalBlueprint.ViewModels.Validations;
+using YouPub.ViewModels.Validations;
 using FluentValidation.Attributes;
 
-namespace GlobalBlueprint.ViewModels
+namespace YouPub.ViewModels
 {
     [Validator(typeof(CredentialsViewModelValidator))]
     public class CredentialsViewModel

@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 import { Component } from '@angular/core';
 let AppComponent = class AppComponent {
     constructor() {
-        this.title = 'Global Blueprint';
+        this.title = 'Global YouPub';
     }
 };
 AppComponent = __decorate([

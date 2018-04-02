@@ -2,8 +2,8 @@
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Blueprint.Entities.Data;
-using Blueprint.Entities.Models.Entities;
+using YouPub.Entities.Data;
+using YouPub.Entities.Models.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace GlobalBlueprint.Controllers
+namespace YouPub.Controllers
 {
 [Authorize(Policy = "RequireEngineer")]
   [Route("api/[controller]/[action]")]

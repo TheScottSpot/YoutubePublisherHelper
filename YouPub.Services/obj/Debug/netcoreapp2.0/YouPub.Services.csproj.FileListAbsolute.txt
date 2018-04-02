@@ -1,0 +1,12 @@
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\bin\Debug\netcoreapp2.0\YouPub.Services.deps.json
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\bin\Debug\netcoreapp2.0\YouPub.Services.dll
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\bin\Debug\netcoreapp2.0\YouPub.Services.pdb
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\bin\Debug\netcoreapp2.0\YouPub.Entities.dll
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\bin\Debug\netcoreapp2.0\YouPub.Entities.pdb
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\obj\Debug\netcoreapp2.0\YouPub.Services.csprojResolveAssemblyReference.cache
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\obj\Debug\netcoreapp2.0\YouPub.Services.csproj.CoreCompileInputs.cache
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\obj\Debug\netcoreapp2.0\YouPub.Services.AssemblyInfoInputs.cache
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\obj\Debug\netcoreapp2.0\YouPub.Services.AssemblyInfo.cs
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\obj\Debug\netcoreapp2.0\YouPub.Services.csproj.CopyComplete
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\obj\Debug\netcoreapp2.0\YouPub.Services.dll
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Services\obj\Debug\netcoreapp2.0\YouPub.Services.pdb

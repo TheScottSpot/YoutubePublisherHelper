@@ -3,12 +3,12 @@
 using System;
 using System.Net;
 using System.Text;
-using Blueprint.Services.Interfaces;
-using Blueprint.Services.Implementation;
-using Blueprint.Entities.Data;
-using Blueprint.Common.Extensions;
-using Blueprint.Entities.Models;
-using Blueprint.Entities.Models.Entities;
+using YouPub.Services.Interfaces;
+using YouPub.Services.Implementation;
+using YouPub.Entities.Data;
+using YouPub.Common.Extensions;
+using YouPub.Entities.Models;
+using YouPub.Entities.Models.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -24,7 +24,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.IdentityModel.Tokens;
 
 
-namespace GlobalBlueprint
+namespace YouPub
 {
   public class Startup
   {
@@ -44,7 +44,7 @@ namespace GlobalBlueprint
       // Add framework services.
       services.AddDbContext<ApplicationDbContext>(options =>
           options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
-              b => b.MigrationsAssembly("GlobalBlueprint")));
+              b => b.MigrationsAssembly("YouPub")));
 
       services.AddSingleton<IJwtFactory, JwtFactory>();
 

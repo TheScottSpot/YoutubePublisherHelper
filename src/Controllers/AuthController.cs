@@ -2,20 +2,20 @@
 
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Blueprint.Entities.Models;
-using Blueprint.Entities.Models.Entities;
-using Blueprint.Services.Helpers;
-using Blueprint.Services.Interfaces;
-using GlobalBlueprint.Helpers;
+using YouPub.Entities.Models;
+using YouPub.Entities.Models.Entities;
+using YouPub.Services.Helpers;
+using YouPub.Services.Interfaces;
+using YouPub.Helpers;
 
-using GlobalBlueprint.ViewModels;
+using YouPub.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 
 
-namespace GlobalBlueprint.Controllers
+namespace YouPub.Controllers
 {
     [Route("api/[controller]")]
     public class AuthController : Controller

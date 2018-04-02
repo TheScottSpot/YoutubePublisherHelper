@@ -2,7 +2,7 @@
 using FluentValidation;
 
 
-namespace GlobalBlueprint.ViewModels.Validations
+namespace YouPub.ViewModels.Validations
 {
     public class RegistrationViewModelValidator : AbstractValidator<RegistrationViewModel>
     {

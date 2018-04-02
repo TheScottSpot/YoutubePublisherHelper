@@ -1,9 +1,9 @@
 ﻿
-using Blueprint.Entities.Models.Entities;
+using YouPub.Entities.Models.Entities;
 using AutoMapper;
 
 
-namespace GlobalBlueprint.ViewModels.Mappings
+namespace YouPub.ViewModels.Mappings
 {
     public class ViewModelToEntityMappingProfile : Profile
     {

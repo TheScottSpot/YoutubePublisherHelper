@@ -1,6 +1,6 @@
 
 
-namespace GlobalBlueprint.ViewModels
+namespace YouPub.ViewModels
 {
 
   public class FacebookAuthViewModel

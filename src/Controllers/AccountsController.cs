@@ -1,16 +1,16 @@
 
 
 using System.Threading.Tasks;
-using GlobalBlueprint.Helpers;
-using GlobalBlueprint.ViewModels;
+using YouPub.Helpers;
+using YouPub.ViewModels;
 using AutoMapper;
-using Blueprint.Entities.Models.Entities;
-using Blueprint.Entities.Data;
+using YouPub.Entities.Models.Entities;
+using YouPub.Entities.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace GlobalBlueprint.Controllers
+namespace YouPub.Controllers
 {
     [Route("api/[controller]")]
     public class AccountsController : Controller

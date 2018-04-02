@@ -3,7 +3,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace GlobalBlueprint.Helpers
+namespace YouPub.Helpers
     {
         public static class Errors
         {

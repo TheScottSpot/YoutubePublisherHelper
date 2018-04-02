@@ -3,7 +3,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
 
-namespace GlobalBlueprint
+namespace YouPub
 {
     public class Program
     {

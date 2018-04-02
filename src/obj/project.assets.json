@@ -4831,20 +4831,20 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "Blueprint.Common/1.0.0": {
+      "YouPub.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
           "Microsoft.AspNetCore.Http": "2.1.0-preview1-final"
         },
         "compile": {
-          "bin/placeholder/Blueprint.Common.dll": {}
+          "bin/placeholder/YouPub.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Blueprint.Common.dll": {}
+          "bin/placeholder/YouPub.Common.dll": {}
         }
       },
-      "Blueprint.Entities/1.0.0": {
+      "YouPub.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
@@ -4856,24 +4856,25 @@
           "System.IdentityModel.Tokens.Jwt": "5.2.1"
         },
         "compile": {
-          "bin/placeholder/Blueprint.Entities.dll": {}
+          "bin/placeholder/YouPub.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Blueprint.Entities.dll": {}
+          "bin/placeholder/YouPub.Entities.dll": {}
         }
       },
-      "Blueprint.Services/1.0.0": {
+      "YouPub.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
-          "Blueprint.Entities": "1.0.0",
-          "System.IdentityModel.Tokens.Jwt": "5.2.1"
+          "Microsoft.IdentityModel.Tokens": "5.2.1",
+          "System.IdentityModel.Tokens.Jwt": "5.2.1",
+          "YouPub.Entities": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Blueprint.Services.dll": {}
+          "bin/placeholder/YouPub.Services.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Blueprint.Services.dll": {}
+          "bin/placeholder/YouPub.Services.dll": {}
         }
       }
     }
@@ -12796,31 +12797,31 @@
         "windowsazure.storage.nuspec"
       ]
     },
-    "Blueprint.Common/1.0.0": {
+    "YouPub.Common/1.0.0": {
       "type": "project",
-      "path": "../Blueprint.Common/Blueprint.Common.csproj",
-      "msbuildProject": "../Blueprint.Common/Blueprint.Common.csproj"
+      "path": "../YouPub.Common/YouPub.Common.csproj",
+      "msbuildProject": "../YouPub.Common/YouPub.Common.csproj"
     },
-    "Blueprint.Entities/1.0.0": {
+    "YouPub.Entities/1.0.0": {
       "type": "project",
-      "path": "../Blueprint.Entities/Blueprint.Entities.csproj",
-      "msbuildProject": "../Blueprint.Entities/Blueprint.Entities.csproj"
+      "path": "../YouPub.Entities/YouPub.Entities.csproj",
+      "msbuildProject": "../YouPub.Entities/YouPub.Entities.csproj"
     },
-    "Blueprint.Services/1.0.0": {
+    "YouPub.Services/1.0.0": {
       "type": "project",
-      "path": "../Blueprint.Services/Blueprint.Services.csproj",
-      "msbuildProject": "../Blueprint.Services/Blueprint.Services.csproj"
+      "path": "../YouPub.Services/YouPub.Services.csproj",
+      "msbuildProject": "../YouPub.Services/YouPub.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 3.2.0",
-      "Blueprint.Common >= 1.0.0",
-      "Blueprint.Entities >= 1.0.0",
-      "Blueprint.Services >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 2.1.0-preview1-final",
       "Microsoft.NETCore.App >= 2.0.0",
+      "YouPub.Common >= 1.0.0",
+      "YouPub.Entities >= 1.0.0",
+      "YouPub.Services >= 1.0.0",
       "fluentvalidation.aspnetcore >= 7.3.3"
     ]
   },
@@ -12831,11 +12832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cody\\Documents\\Code\\angular-boilerplate\\Angular5-WebCore2-Boilerplate\\GlobalBlueprint\\src\\GlobalBlueprint.csproj",
-      "projectName": "GlobalBlueprint",
-      "projectPath": "C:\\Users\\Cody\\Documents\\Code\\angular-boilerplate\\Angular5-WebCore2-Boilerplate\\GlobalBlueprint\\src\\GlobalBlueprint.csproj",
+      "projectUniqueName": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\src\\YouPub.csproj",
+      "projectName": "YouPub",
+      "projectPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\src\\YouPub.csproj",
       "packagesPath": "C:\\Users\\Cody\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cody\\Documents\\Code\\angular-boilerplate\\Angular5-WebCore2-Boilerplate\\GlobalBlueprint\\src\\obj\\",
+      "outputPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12854,14 +12855,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Cody\\Documents\\Code\\angular-boilerplate\\Angular5-WebCore2-Boilerplate\\GlobalBlueprint\\Blueprint.Common\\Blueprint.Common.csproj": {
-              "projectPath": "C:\\Users\\Cody\\Documents\\Code\\angular-boilerplate\\Angular5-WebCore2-Boilerplate\\GlobalBlueprint\\Blueprint.Common\\Blueprint.Common.csproj"
+            "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Common\\YouPub.Common.csproj": {
+              "projectPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Common\\YouPub.Common.csproj"
             },
-            "C:\\Users\\Cody\\Documents\\Code\\angular-boilerplate\\Angular5-WebCore2-Boilerplate\\GlobalBlueprint\\Blueprint.Entities\\Blueprint.Entities.csproj": {
-              "projectPath": "C:\\Users\\Cody\\Documents\\Code\\angular-boilerplate\\Angular5-WebCore2-Boilerplate\\GlobalBlueprint\\Blueprint.Entities\\Blueprint.Entities.csproj"
+            "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Entities\\YouPub.Entities.csproj": {
+              "projectPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Entities\\YouPub.Entities.csproj"
             },
-            "C:\\Users\\Cody\\Documents\\Code\\angular-boilerplate\\Angular5-WebCore2-Boilerplate\\GlobalBlueprint\\Blueprint.Services\\Blueprint.Services.csproj": {
-              "projectPath": "C:\\Users\\Cody\\Documents\\Code\\angular-boilerplate\\Angular5-WebCore2-Boilerplate\\GlobalBlueprint\\Blueprint.Services\\Blueprint.Services.csproj"
+            "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Services\\YouPub.Services.csproj": {
+              "projectPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Services\\YouPub.Services.csproj"
             }
           }
         }
