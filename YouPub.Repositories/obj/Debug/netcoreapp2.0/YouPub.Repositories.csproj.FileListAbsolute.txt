@@ -1,0 +1,9 @@
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Repositories\bin\Debug\netcoreapp2.0\YouPub.Repositories.deps.json
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Repositories\bin\Debug\netcoreapp2.0\YouPub.Repositories.dll
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Repositories\bin\Debug\netcoreapp2.0\YouPub.Repositories.pdb
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Repositories\obj\Debug\netcoreapp2.0\YouPub.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Repositories\obj\Debug\netcoreapp2.0\YouPub.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Repositories\obj\Debug\netcoreapp2.0\YouPub.Repositories.AssemblyInfoInputs.cache
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Repositories\obj\Debug\netcoreapp2.0\YouPub.Repositories.AssemblyInfo.cs
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Repositories\obj\Debug\netcoreapp2.0\YouPub.Repositories.dll
+C:\Users\Cody\Documents\Code\youtube-pubslisher-helper\YoutubePublisherHelper\YouPub.Repositories\obj\Debug\netcoreapp2.0\YouPub.Repositories.pdb
