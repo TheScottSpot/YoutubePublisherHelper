@@ -43,6 +43,16 @@ namespace YouPub
     {
       services.AddAutoMapper();
       services.AddMvc().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>());
+      services.AddAuthentication(options =>
+      {
+        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+
+      }).AddJwtBearer(options =>
+      {
+        options.Authority = "https://pubtube.auth0.com/";
+        options.Audience = "https://pubtube-api.com";
+      });
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -82,6 +92,7 @@ namespace YouPub
             });
         });
 
+      app.UseAuthentication();
       app.UseDefaultFiles();
       app.UseStaticFiles();
       app.UseMvc();

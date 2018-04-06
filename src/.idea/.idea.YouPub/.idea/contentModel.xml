@@ -270,6 +270,7 @@
               <e p="header.component.spec.ts" t="Include" />
               <e p="header.component.ts" t="Include" />
             </e>
+            <e p="http-interceptor.ts" t="Include" />
             <e p="models" t="Include">
               <e p="user.model.ts" t="Include" />
             </e>

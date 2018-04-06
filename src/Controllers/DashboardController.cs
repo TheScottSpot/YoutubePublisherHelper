@@ -13,16 +13,22 @@ using Microsoft.EntityFrameworkCore;
 
 namespace YouPub.Controllers
 {
-  [Route("api/[controller]/[action]")]
+  [Route("api/")]
   public class DashboardController : Controller
   {
-    private readonly ClaimsPrincipal _caller;
-    private readonly ApplicationDbContext _appDbContext;
-
-    public DashboardController(UserManager<AppUser> userManager, ApplicationDbContext appDbContext, IHttpContextAccessor httpContextAccessor)
+    public DashboardController()
     {
-      _caller = httpContextAccessor.HttpContext.User;
-      _appDbContext = appDbContext;
+    }
+
+    [HttpGet]
+    [Route("message")]
+    [Authorize]
+    public IActionResult Private()
+    {
+      return Json(new
+      {
+        Message = "Hello from a private endpoint! You need to be authenticated to see this."
+      });
     }
   }
 }

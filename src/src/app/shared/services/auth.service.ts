@@ -12,7 +12,7 @@ export class AuthService {
     clientID: 'A6fcLDtO5gI7ub6SZCNtyZfAhQ5JMiw5',
     domain: 'pubtube.auth0.com',
     responseType: 'token id_token',
-    audience: 'https://pubtube.auth0.com/userinfo',
+    audience: 'https://pubtube-api.com',
     redirectUri: 'http://localhost:5000/account',
     scope: 'openid profile email'
   });
@@ -20,7 +20,7 @@ export class AuthService {
   private _authorizedProfile: any;
 
   constructor(public router: Router,
-              private http: HttpClient) {
+              private _http: HttpClient) {
   }
 
   public isAuthenticated(): boolean {
@@ -30,26 +30,10 @@ export class AuthService {
     return new Date().getTime() < expiresAt;
   }
 
-  public getAuthHeader() {
-    const header = new HttpHeaders().set('authorization', `Bearer ${localStorage.getItem('access_token')}`);
-    header.set('content-type', 'application/json');
-    return header;
+  public testApi() {
+    return this._http.get<any[]>('/api/message');
+
   }
-
-  // public getAuthorizedProfile(): Profile {
-  //   return new Profile(
-  //     localStorage.getItem('name'),
-  //     localStorage.getItem('email'),
-  //     localStorage.getItem('nickname'),
-  //     localStorage.getItem('email_verified'),
-  //     localStorage.getItem('picture'),
-  //     localStorage.getItem('user_id')
-  //   );
-  // }
-
-  // public isAdmin(): boolean {
-  //   return localStorage.getItem('scope') ? localStorage.getItem('scope').indexOf('admin') > -1 : false;
-  // }
 
   public login(): void {
     this.auth0.authorize();
@@ -65,8 +49,8 @@ export class AuthService {
         this.router.navigate(['/account']);
 
       } else if (err) {
-
-        this.router.navigate(['/home']);
+        console.log('error', err)
+        this.router.navigate(['/account']);
 
       }
     });

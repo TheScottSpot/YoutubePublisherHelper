@@ -19,6 +19,10 @@ export class HeaderComponent implements OnInit {
     this.auth.handleAuthentication();
   }
 
+  public getMessage() {
+    this.auth.testApi().subscribe(message => console.log(message))
+  }
+
   public logout(): void {
     this.auth.logout();
   }

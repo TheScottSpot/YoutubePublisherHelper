@@ -9,3 +9,5 @@ src/obj/
 *.pdb
 
 src/package-lock\.json
+
+src/\.idea/\.idea\.YouPub/\.idea/
