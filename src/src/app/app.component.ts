@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import {environment} from '../environments/environment';
+import {AuthService} from './shared/services/auth.service';
+import {Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Global YouPub';
+  public env = environment;
+
+  constructor(public auth: AuthService,
+              private titleService: Title) {
+  }
+
+  ngOnInit() {
+    this.titleService.setTitle('PubTube');
+    this.auth.handleAuthentication();
+  }
 }

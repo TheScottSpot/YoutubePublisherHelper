@@ -1,6 +1,6 @@
-
-
 using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Net;
 using System.Text;
 using YouPub.Services.Interfaces;
@@ -52,24 +52,35 @@ namespace YouPub
       {
         app.UseDeveloperExceptionPage();
       }
+      // Catch all requests and route them back to the angular application
+      app.Use(async (context, next) =>
+        {
+          await next();
+          if (context.Response.StatusCode == 404 && !Path.HasExtension(context.Request.Path.Value))
+          {
+            context.Request.Path = "/index.html";
+            await next();
+          }
+        })
+        .UseDefaultFiles(new DefaultFilesOptions {DefaultFileNames = new List<string> {"index.html"}});
 
       app.UseExceptionHandler(
-          builder =>
-          {
-            builder.Run(
-                      async context =>
-                      {
-                    context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-                    context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+        builder =>
+        {
+          builder.Run(
+            async context =>
+            {
+              context.Response.StatusCode = (int) HttpStatusCode.InternalServerError;
+              context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
 
-                    var error = context.Features.Get<IExceptionHandlerFeature>();
-                    if (error != null)
-                    {
-                      context.Response.AddApplicationError(error.Error.Message);
-                      await context.Response.WriteAsync(error.Error.Message).ConfigureAwait(false);
-                    }
-                  });
-          });
+              var error = context.Features.Get<IExceptionHandlerFeature>();
+              if (error != null)
+              {
+                context.Response.AddApplicationError(error.Error.Message);
+                await context.Response.WriteAsync(error.Error.Message).ConfigureAwait(false);
+              }
+            });
+        });
 
       app.UseDefaultFiles();
       app.UseStaticFiles();

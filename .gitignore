@@ -1,0 +1,11 @@
+
+src/wwwroot/
+src/node_modules/
+src/bin/
+src/obj/
+
+*.dll
+
+*.pdb
+
+src/package-lock\.json
