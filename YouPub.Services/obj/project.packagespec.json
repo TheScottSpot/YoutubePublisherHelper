@@ -1,0 +1,55 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/jarrett/YoutubePublisherHelper/YouPub.Services/YouPub.Services.csproj",
+    "projectName": "YouPub.Services",
+    "projectPath": "/Users/jarrett/YoutubePublisherHelper/YouPub.Services/YouPub.Services.csproj",
+    "outputPath": "/Users/jarrett/YoutubePublisherHelper/YouPub.Services/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/Users/jarrett/YoutubePublisherHelper/YouPub.Entities/YouPub.Entities.csproj": {
+            "projectPath": "/Users/jarrett/YoutubePublisherHelper/YouPub.Entities/YouPub.Entities.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.IdentityModel.Tokens": {
+          "target": "Package",
+          "version": "[5.2.1, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        },
+        "System.IdentityModel.Tokens.Jwt": {
+          "target": "Package",
+          "version": "[5.2.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

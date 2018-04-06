@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../../YouPub.Common" />
+    <content url="file://$MODULE_DIR$/../../../YouPub.Entities" />
+    <content url="file://$MODULE_DIR$/../../../YouPub.Repositories" />
+    <content url="file://$MODULE_DIR$/../../../YouPub.Services" />
+    <content url="file://$MODULE_DIR$/../.." />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

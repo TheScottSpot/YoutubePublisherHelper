@@ -2,32 +2,31 @@ import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import {AuthService} from '../../services/auth.service';
 import {accountConstants} from '../account-constants';
+import {OktaAuthService} from '@okta/okta-angular';
 
 @Component({
   selector: 'app-user-login',
   templateUrl: './user-login.component.html',
   styleUrls: ['./user-login.component.scss']
 })
-export class UserLoginComponent implements OnInit {
-  public loginForm: FormGroup;
+export class UserLoginComponent {
+  isAuthenticated: boolean;
 
-  constructor(private auth: AuthService) { }
+  constructor(public oktaAuth: OktaAuthService) {
+    // Get the authentication state for immediate use
+     this.oktaAuth.isAuthenticated().then(authenticated => this.isAuthenticated = authenticated);
 
-  ngOnInit() {
-    this.createForm();
+    // Subscribe to authentication state changes
+    this.oktaAuth.$authenticationState.subscribe(
+      (isAuthenticated: boolean)  => this.isAuthenticated = isAuthenticated
+    );
   }
 
-  private createForm(): void {
-    this.loginForm = new FormGroup({
-      email: new FormControl('', [ Validators.required, Validators.email]),
-      password: new FormControl('', [Validators.required]),
-    });
+  login() {
+    this.oktaAuth.loginRedirect('/profile');
   }
 
-  public login() {
-    const email = this.loginForm.controls[accountConstants.email].value;
-    const password = this.loginForm.controls[accountConstants.password].value;
-
-    this.auth.login(email, password);
+  logout() {
+    this.oktaAuth.logout('/');
   }
 }

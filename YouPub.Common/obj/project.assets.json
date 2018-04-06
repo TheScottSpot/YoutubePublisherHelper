@@ -981,30 +981,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cody\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/jarrett/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Common\\YouPub.Common.csproj",
+      "projectUniqueName": "/Users/jarrett/YoutubePublisherHelper/YouPub.Common/YouPub.Common.csproj",
       "projectName": "YouPub.Common",
-      "projectPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Common\\YouPub.Common.csproj",
-      "packagesPath": "C:\\Users\\Cody\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Common\\obj\\",
+      "projectPath": "/Users/jarrett/YoutubePublisherHelper/YouPub.Common/YouPub.Common.csproj",
+      "packagesPath": "/Users/jarrett/.nuget/packages/",
+      "outputPath": "/Users/jarrett/YoutubePublisherHelper/YouPub.Common/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cody\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jarrett/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

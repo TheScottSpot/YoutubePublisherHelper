@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_YouPub.-1699453388.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".angular-cli.json" t="Include" />
+      <e p=".editorconfig" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="AccountsController.cs" t="Include" />
+        <e p="DashboardController.cs" t="Include" />
+      </e>
+      <e p="dist" t="Include">
+        <e p="out-tsc" t="Include">
+          <e p="e2e" t="Include">
+            <e p="app.e2e-spec.js" t="Include" />
+            <e p="app.e2e-spec.js.map" t="Include" />
+            <e p="app.po.js" t="Include" />
+            <e p="app.po.js.map" t="Include" />
+          </e>
+          <e p="src" t="Include">
+            <e p="app" t="Include">
+              <e p="account" t="Include">
+                <e p="account.component.js" t="Include" />
+                <e p="account.component.js.map" t="Include" />
+                <e p="account.component.spec.js" t="Include" />
+                <e p="account.component.spec.js.map" t="Include" />
+                <e p="account.module.js" t="Include" />
+                <e p="account.module.js.map" t="Include" />
+                <e p="account.routing.js" t="Include" />
+                <e p="account.routing.js.map" t="Include" />
+                <e p="facebook-login" t="Include">
+                  <e p="facebook-login.component.js" t="Include" />
+                  <e p="facebook-login.component.js.map" t="Include" />
+                  <e p="facebook-login.component.spec.js" t="Include" />
+                  <e p="facebook-login.component.spec.js.map" t="Include" />
+                </e>
+                <e p="login-form" t="Include">
+                  <e p="login-form.component.js" t="Include" />
+                  <e p="login-form.component.js.map" t="Include" />
+                  <e p="login-form.component.spec.js" t="Include" />
+                  <e p="login-form.component.spec.js.map" t="Include" />
+                </e>
+                <e p="registration-form" t="Include">
+                  <e p="registration-form.component.js" t="Include" />
+                  <e p="registration-form.component.js.map" t="Include" />
+                  <e p="registration-form.component.spec.js" t="Include" />
+                  <e p="registration-form.component.spec.js.map" t="Include" />
+                </e>
+                <e p="user-catalog" t="Include">
+                  <e p="user-catalog.component.js" t="Include" />
+                  <e p="user-catalog.component.js.map" t="Include" />
+                  <e p="user-catalog.component.spec.js" t="Include" />
+                  <e p="user-catalog.component.spec.js.map" t="Include" />
+                </e>
+                <e p="user-details" t="Include">
+                  <e p="user-details.component.js" t="Include" />
+                  <e p="user-details.component.js.map" t="Include" />
+                  <e p="user-details.component.spec.js" t="Include" />
+                  <e p="user-details.component.spec.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="app.component.js" t="Include" />
+              <e p="app.component.js.map" t="Include" />
+              <e p="app.component.spec.js" t="Include" />
+              <e p="app.component.spec.js.map" t="Include" />
+              <e p="app.module.js" t="Include" />
+              <e p="app.module.js.map" t="Include" />
+              <e p="app.routing.js" t="Include" />
+              <e p="app.routing.js.map" t="Include" />
+              <e p="auth.guard.js" t="Include" />
+              <e p="auth.guard.js.map" t="Include" />
+              <e p="authenticate-xhr.backend.js" t="Include" />
+              <e p="authenticate-xhr.backend.js.map" t="Include" />
+              <e p="dashboard" t="Include">
+                <e p="dashboard.module.js" t="Include" />
+                <e p="dashboard.module.js.map" t="Include" />
+                <e p="dashboard.routing.js" t="Include" />
+                <e p="dashboard.routing.js.map" t="Include" />
+                <e p="home" t="Include">
+                  <e p="home.component.js" t="Include" />
+                  <e p="home.component.js.map" t="Include" />
+                  <e p="home.component.spec.js" t="Include" />
+                  <e p="home.component.spec.js.map" t="Include" />
+                </e>
+                <e p="models" t="Include">
+                  <e p="home.details.interface.js" t="Include" />
+                  <e p="home.details.interface.js.map" t="Include" />
+                </e>
+                <e p="root" t="Include">
+                  <e p="root.component.js" t="Include" />
+                  <e p="root.component.js.map" t="Include" />
+                  <e p="root.component.spec.js" t="Include" />
+                  <e p="root.component.spec.js.map" t="Include" />
+                </e>
+                <e p="services" t="Include">
+                  <e p="dashboard.service.js" t="Include" />
+                  <e p="dashboard.service.js.map" t="Include" />
+                </e>
+                <e p="settings" t="Include">
+                  <e p="settings.component.js" t="Include" />
+                  <e p="settings.component.js.map" t="Include" />
+                  <e p="settings.component.spec.js" t="Include" />
+                  <e p="settings.component.spec.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="directives" t="Include">
+                <e p="email.validator.directive.js" t="Include" />
+                <e p="email.validator.directive.js.map" t="Include" />
+                <e p="focus.directive.js" t="Include" />
+                <e p="focus.directive.js.map" t="Include" />
+              </e>
+              <e p="header" t="Include">
+                <e p="header.component.js" t="Include" />
+                <e p="header.component.js.map" t="Include" />
+                <e p="header.component.spec.js" t="Include" />
+                <e p="header.component.spec.js.map" t="Include" />
+              </e>
+              <e p="home" t="Include">
+                <e p="home.component.js" t="Include" />
+                <e p="home.component.js.map" t="Include" />
+                <e p="home.component.spec.js" t="Include" />
+                <e p="home.component.spec.js.map" t="Include" />
+              </e>
+              <e p="shared" t="Include">
+                <e p="directives" t="Include">
+                  <e p="email.validator.directive.js" t="Include" />
+                  <e p="email.validator.directive.js.map" t="Include" />
+                  <e p="focus.directive.js" t="Include" />
+                  <e p="focus.directive.js.map" t="Include" />
+                </e>
+                <e p="header" t="Include">
+                  <e p="header.component.js" t="Include" />
+                  <e p="header.component.js.map" t="Include" />
+                  <e p="header.component.spec.js" t="Include" />
+                  <e p="header.component.spec.js.map" t="Include" />
+                </e>
+                <e p="models" t="Include">
+                  <e p="credentials.interface.js" t="Include" />
+                  <e p="credentials.interface.js.map" t="Include" />
+                  <e p="user.model.js" t="Include" />
+                  <e p="user.model.js.map" t="Include" />
+                  <e p="user.registration.interface.js" t="Include" />
+                  <e p="user.registration.interface.js.map" t="Include" />
+                </e>
+                <e p="modules" t="Include">
+                  <e p="shared.module.js" t="Include" />
+                  <e p="shared.module.js.map" t="Include" />
+                </e>
+                <e p="services" t="Include">
+                  <e p="auth.service.js" t="Include" />
+                  <e p="auth.service.js.map" t="Include" />
+                  <e p="auth.service.spec.js" t="Include" />
+                  <e p="auth.service.spec.js.map" t="Include" />
+                  <e p="base.service.js" t="Include" />
+                  <e p="base.service.js.map" t="Include" />
+                  <e p="user.service.js" t="Include" />
+                  <e p="user.service.js.map" t="Include" />
+                </e>
+                <e p="shared-account" t="Include">
+                  <e p="account-constants.js" t="Include" />
+                  <e p="account-constants.js.map" t="Include" />
+                  <e p="user-login" t="Include">
+                    <e p="user-login.component.js" t="Include" />
+                    <e p="user-login.component.js.map" t="Include" />
+                    <e p="user-login.component.spec.js" t="Include" />
+                    <e p="user-login.component.spec.js.map" t="Include" />
+                  </e>
+                  <e p="user-registration" t="Include">
+                    <e p="user-registration.component.js" t="Include" />
+                    <e p="user-registration.component.js.map" t="Include" />
+                    <e p="user-registration.component.spec.js" t="Include" />
+                    <e p="user-registration.component.spec.js.map" t="Include" />
+                  </e>
+                </e>
+                <e p="utils" t="Include">
+                  <e p="config.service.js" t="Include" />
+                  <e p="config.service.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="spinner" t="Include">
+                <e p="spinner.component.js" t="Include" />
+                <e p="spinner.component.js.map" t="Include" />
+                <e p="spinner.component.spec.js" t="Include" />
+                <e p="spinner.component.spec.js.map" t="Include" />
+              </e>
+            </e>
+            <e p="environments" t="Include">
+              <e p="environment.js" t="Include" />
+              <e p="environment.js.map" t="Include" />
+              <e p="environment.prod.js" t="Include" />
+              <e p="environment.prod.js.map" t="Include" />
+            </e>
+            <e p="main.js" t="Include" />
+            <e p="main.js.map" t="Include" />
+            <e p="polyfills.js" t="Include" />
+            <e p="polyfills.js.map" t="Include" />
+            <e p="test.js" t="Include" />
+            <e p="test.js.map" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="e2e" t="Include">
+        <e p="app.e2e-spec.ts" t="Include" />
+        <e p="app.po.ts" t="Include" />
+        <e p="tsconfig.e2e.json" t="Include" />
+      </e>
+      <e p="Helpers" t="Include">
+        <e p="Errors.cs" t="Include" />
+      </e>
+      <e p="karma.conf.js" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="YouPub.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="package-lock.json" t="Include" />
+      <e p="package.json" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="protractor.conf.js" t="Include" />
+      <e p="src" t="Include">
+        <e p="app" t="Include">
+          <e p="account" t="Include">
+            <e p="account.component.html" t="Include" />
+            <e p="account.component.scss" t="Include" />
+            <e p="account.component.spec.ts" t="Include" />
+            <e p="account.component.ts" t="Include" />
+            <e p="user-catalog" t="Include">
+              <e p="user-catalog.component.html" t="Include" />
+              <e p="user-catalog.component.scss" t="Include" />
+              <e p="user-catalog.component.spec.ts" t="Include" />
+              <e p="user-catalog.component.ts" t="Include" />
+            </e>
+            <e p="user-details" t="Include">
+              <e p="user-details.component.html" t="Include" />
+              <e p="user-details.component.scss" t="Include" />
+              <e p="user-details.component.spec.ts" t="Include" />
+              <e p="user-details.component.ts" t="Include" />
+            </e>
+          </e>
+          <e p="app.component.html" t="Include" />
+          <e p="app.component.scss" t="Include" />
+          <e p="app.component.spec.ts" t="Include" />
+          <e p="app.component.ts" t="Include" />
+          <e p="app.module.ts" t="Include" />
+          <e p="app.routing.ts" t="Include" />
+          <e p="auth.guard.ts" t="Include" />
+          <e p="home" t="Include">
+            <e p="home.component.html" t="Include" />
+            <e p="home.component.scss" t="Include" />
+            <e p="home.component.spec.ts" t="Include" />
+            <e p="home.component.ts" t="Include" />
+          </e>
+          <e p="shared" t="Include">
+            <e p="directives" t="Include">
+              <e p="email.validator.directive.ts" t="Include" />
+              <e p="focus.directive.ts" t="Include" />
+            </e>
+            <e p="header" t="Include">
+              <e p="header.component.html" t="Include" />
+              <e p="header.component.scss" t="Include" />
+              <e p="header.component.spec.ts" t="Include" />
+              <e p="header.component.ts" t="Include" />
+            </e>
+            <e p="models" t="Include">
+              <e p="user.model.ts" t="Include" />
+            </e>
+            <e p="services" t="Include">
+              <e p="auth.service.spec.ts" t="Include" />
+              <e p="auth.service.ts" t="Include" />
+            </e>
+            <e p="shared-account" t="Include">
+              <e p="account-constants.ts" t="Include" />
+              <e p="user-login" t="Include">
+                <e p="user-login.component.html" t="Include" />
+                <e p="user-login.component.scss" t="Include" />
+                <e p="user-login.component.spec.ts" t="Include" />
+                <e p="user-login.component.ts" t="Include" />
+              </e>
+              <e p="user-registration" t="Include">
+                <e p="user-registration.component.html" t="Include" />
+                <e p="user-registration.component.scss" t="Include" />
+                <e p="user-registration.component.spec.ts" t="Include" />
+                <e p="user-registration.component.ts" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="assets" t="Include">
+          <e p=".gitkeep" t="Include" />
+          <e p="facebook-login.png" t="Include" />
+          <e p="util.js" t="Include" />
+        </e>
+        <e p="environments" t="Include">
+          <e p="environment.prod.ts" t="Include" />
+          <e p="environment.ts" t="Include" />
+        </e>
+        <e p="facebook-auth.html" t="Include" />
+        <e p="favicon.ico" t="Include" />
+        <e p="index.html" t="Include" />
+        <e p="main.ts" t="Include" />
+        <e p="npm-debug.log.141272917" t="Include" />
+        <e p="polyfills.ts" t="Include" />
+        <e p="styles.scss" t="Include" />
+        <e p="test.ts" t="Include" />
+        <e p="tsconfig.app.json" t="Include" />
+        <e p="tsconfig.spec.json" t="Include" />
+        <e p="typings.d.ts" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="tsconfig.json" t="Include" />
+      <e p="tslint.json" t="Include" />
+      <e p="ViewModels" t="Include">
+        <e p="CredentialsViewModel.cs" t="Include" />
+        <e p="FacebookAuthViewModel.cs" t="Include" />
+        <e p="Mappings" t="Include">
+          <e p="ViewModelToEntityMappingProfile.cs" t="Include" />
+        </e>
+        <e p="RegisrationViewModel.cs" t="Include" />
+        <e p="Validations" t="Include">
+          <e p="CredentialsViewModelValidator.cs" t="Include" />
+          <e p="RegistrationViewModelValidator.cs" t="Include" />
+        </e>
+      </e>
+      <e p="wwwroot" t="Include">
+        <e p="assets" t="Include">
+          <e p="facebook-login.png" t="Include" />
+          <e p="util.js" t="Include" />
+        </e>
+        <e p="facebook-auth.html" t="Include" />
+        <e p="favicon.ico" t="Include" />
+        <e p="index.html" t="Include" />
+        <e p="inline.bundle.js" t="Include" />
+        <e p="inline.bundle.js.map" t="Include" />
+        <e p="main.bundle.js" t="Include" />
+        <e p="main.bundle.js.map" t="Include" />
+        <e p="polyfills.bundle.js" t="Include" />
+        <e p="polyfills.bundle.js.map" t="Include" />
+        <e p="scripts.bundle.js" t="Include" />
+        <e p="scripts.bundle.js.map" t="Include" />
+        <e p="styles.bundle.js" t="Include" />
+        <e p="styles.bundle.js.map" t="Include" />
+        <e p="vendor.bundle.js" t="Include" />
+        <e p="vendor.bundle.js.map" t="Include" />
+      </e>
+      <e p="YouPub.csproj" t="IncludeRecursive" />
+      <e p="YouPub.sln" t="IncludeFlat" />
+    </e>
+    <e p="$PROJECT_DIR$/../YouPub.Common" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Class1.cs" t="Include" />
+      <e p="Extensions" t="Include">
+        <e p="ResponseExtensions.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="YouPub.Common.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="YouPub.Common.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../YouPub.Entities" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Data" t="Include">
+        <e p="ApplicationDbContext.cs" t="Include" />
+      </e>
+      <e p="models" t="Include">
+        <e p="Entities" t="Include">
+          <e p="AppRole.cs" t="Include" />
+          <e p="AppUser.cs" t="Include" />
+          <e p="UserMeta.cs" t="Include" />
+        </e>
+        <e p="FacebookApiResponses.cs" t="Include" />
+        <e p="FacebookAuthSettings.cs" t="Include" />
+        <e p="JwtIssuerOptions.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="YouPub.Entities.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="YouPub.Entities.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../YouPub.Repositories" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Class1.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="YouPub.Repositories.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="YouPub.Repositories.csproj" t="IncludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../YouPub.Services" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Helpers" t="Include">
+        <e p="Constants.cs" t="Include" />
+        <e p="Tokens.cs" t="Include" />
+      </e>
+      <e p="Implementation" t="Include">
+        <e p="JwtFactory.cs" t="Include" />
+      </e>
+      <e p="Interfaces" t="Include">
+        <e p="IJwtFactory.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.0" t="Include">
+            <e p="YouPub.Services.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="YouPub.Services.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

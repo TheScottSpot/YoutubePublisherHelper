@@ -12826,43 +12826,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cody\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/jarrett/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\src\\YouPub.csproj",
+      "projectUniqueName": "/Users/jarrett/YoutubePublisherHelper/src/YouPub.csproj",
       "projectName": "YouPub",
-      "projectPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\src\\YouPub.csproj",
-      "packagesPath": "C:\\Users\\Cody\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\src\\obj\\",
+      "projectPath": "/Users/jarrett/YoutubePublisherHelper/src/YouPub.csproj",
+      "packagesPath": "/Users/jarrett/.nuget/packages/",
+      "outputPath": "/Users/jarrett/YoutubePublisherHelper/src/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cody\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/jarrett/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Common\\YouPub.Common.csproj": {
-              "projectPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Common\\YouPub.Common.csproj"
+            "/Users/jarrett/YoutubePublisherHelper/YouPub.Common/YouPub.Common.csproj": {
+              "projectPath": "/Users/jarrett/YoutubePublisherHelper/YouPub.Common/YouPub.Common.csproj"
             },
-            "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Entities\\YouPub.Entities.csproj": {
-              "projectPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Entities\\YouPub.Entities.csproj"
+            "/Users/jarrett/YoutubePublisherHelper/YouPub.Entities/YouPub.Entities.csproj": {
+              "projectPath": "/Users/jarrett/YoutubePublisherHelper/YouPub.Entities/YouPub.Entities.csproj"
             },
-            "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Services\\YouPub.Services.csproj": {
-              "projectPath": "C:\\Users\\Cody\\Documents\\Code\\youtube-pubslisher-helper\\YoutubePublisherHelper\\YouPub.Services\\YouPub.Services.csproj"
+            "/Users/jarrett/YoutubePublisherHelper/YouPub.Services/YouPub.Services.csproj": {
+              "projectPath": "/Users/jarrett/YoutubePublisherHelper/YouPub.Services/YouPub.Services.csproj"
             }
           }
         }
@@ -12889,6 +12887,7 @@
             "version": "[2.1.0-preview1-final, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
