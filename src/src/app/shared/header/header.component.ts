@@ -2,6 +2,7 @@
 import {Component, OnInit, OnDestroy} from '@angular/core';
 import {Subscription} from 'rxjs/Subscription';
 import {AuthService} from '../services/auth.service';
+import {Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-header',
@@ -13,7 +14,14 @@ export class HeaderComponent implements OnInit {
 
   constructor(public auth: AuthService) {
   }
-  ngOnInit() {}
+
+  ngOnInit() {
+    this.auth.handleAuthentication();
+  }
+
+  public getMessage() {
+    this.auth.testApi().subscribe(message => console.log(message))
+  }
 
   public logout(): void {
     this.auth.logout();

@@ -1,0 +1,11 @@
+<ul >
+  <li><a (click)="auth.login()"
+         *ngIf="!auth.isAuthenticated()">Login</a>
+  </li>
+  <li><a *ngIf="auth.isAuthenticated()"
+         (click)="auth.logout()">Logout</a>
+  </li>
+</ul>
+<h1 *ngIf="!auth.isAuthenticated()">You aint logged in brah</h1>
+<h1 *ngIf="auth.isAuthenticated()">You is logged in brah</h1>
+<button (click)="getMessage()"> test api</button>

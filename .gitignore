@@ -1,0 +1,13 @@
+
+src/wwwroot/
+src/node_modules/
+src/bin/
+src/obj/
+
+*.dll
+
+*.pdb
+
+src/package-lock\.json
+
+src/\.idea/\.idea\.YouPub/\.idea/
